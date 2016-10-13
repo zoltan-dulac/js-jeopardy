@@ -81,13 +81,14 @@ div.playerscore {
 
 /** The jeopardy game board header cells */
 div.gridheader {
-  color: white;
-  padding: 25px 10px 10px 10px;
-  text-align: center;
-  font-size: 100%;
-  font-family: Swiss911BT-ExtraCompressed, Helvetica, Arial, sans-serif;
-  font-size: 3vh;
-  text-shadow: 0.25vh 0.25vh 0 black;
+    color: white;
+    padding: 25px 10px 10px 10px;
+    text-align: center;
+    font-size: 100%;
+    font-family: Swiss911BT-ExtraCompressed, Helvetica, Arial, sans-serif;
+    font-size: 4vh;
+    text-shadow: 0.5vh 0.5vh 0 black;
+    text-transform: uppercase;
 }
 
 /** The jeopardy game board cells */
