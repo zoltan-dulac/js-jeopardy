@@ -320,14 +320,7 @@ function checkHeaderHeight() {
   for (var col = 1; col < categories.length; col++) {
     var gridheader = document.getElementById('gridheader' + col);
     front = false;
-    while (gridheader.offsetHeight < maxheight) {
-      if (front) {
-        gridheader.innerHTML = "&nbsp;<br>" + gridheader.innerHTML;
-      }else{
-        gridheader.innerHTML = gridheader.innerHTML + "<br>&nbsp;";
-      }
-      front = !front;
-    }
+    
   }//for col
 }//checkHeaderSize
 
