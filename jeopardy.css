@@ -58,7 +58,7 @@ table.grid {
 }
 
 table.grid td {
-	height: 16.66vh;
+	height: 15vh;
 	background-color: #0000b4;
   overflow: hidden;
 }
@@ -100,21 +100,30 @@ div.griditem {
   font-size: 8vh;
 }
 
+#questionplayers {
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+}
+
 /** The answer text in the answer popup */
 div.popuptext {
     color: #FFFFFF;
     padding: 20px;
     text-align: center;
     font-size: 8vmin;
-    height: 100px;
     text-transform: uppercase;
     font-family: KorinnaBold;
     text-shadow: 1vh 1vh 0 black;
-    position: absolute;
+    position: relative;
     left: 0;
     padding: 0 10vmin;
-    top: 50%;
-    transform: translateY(-25vh);
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    top: 0;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 /** The content of the edit player window */
