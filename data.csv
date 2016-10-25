@@ -1,32 +1,27 @@
-Category,Points,Answer,Question
-Process,5,This process means using information systems to learn and improve.,What is informating?
-Process,10,This process helps companies form a vision of where the organization needs to go in the future and how to get there.,What is strategic planning?
-Process,20,"This colloquial term describes when managers choose to overlay new technology on top of an old, sometimes inefficient, business process",What is 'Paving the Cow Path'?
-Process,40,This type of change can speed up a bad business process without improving it.,What is automating?
-Process,100,"This term describes a situation where a company finds its business processes and management practices undermined by a new or emerging technology. Sometimes the new technology is so important, companies that do not respond quickly enough may find themselves out of business and facing bankruptcy.","What is ""The Innovator's Dilemma""?"
-World Wide Web,5,The acronym for World Wide Web (three syllables itself) is this many syllables.,What is nine?
-World Wide Web,10,The markup language used to structure the content of web pages.,What is HTML? What is XHTML?
-World Wide Web,20,"The three major graphics on the web are GIF, PNG, and this.",What is JPG?
-World Wide Web,40,This person credited with inventing the World Wide Web.,"Who is Al Gore? Oh wait, who is Tim Berners-Lee?"
-World Wide Web,100,The acronym for the file transfer protocol of the Web.,"What is HTTP, which stands for Hyper-text Transfer Protocol?"
-Info Tech,5,This type of analysis helps managers identify ways to use information systems to gain competitive advantage for their companies.,What is Value chain analysis?
-Info Tech,10,"This is the process of identifying, quantifying, and presenting the value provided by a proposed information systems implementation or development project.",What is making the business case?
-Info Tech,20,"Generally speaking, this is a side effect of any significant information systems implementation, and it is usually good for the company but painful to many of the employees.",What is organizational change?
-Info Tech,40,"Process requirements, resource requirements and risk tolerance requirements.",What are factors that a company must consider before deciding to innovate with an information system?
-Info Tech,100,"Doing things faster, doing things better, doing things smarter.",What are reasons why companies want to implement new information systems?
-Project Mgmt,5,"This famous model describes forces in the external business environment that affect how competitive an industry is, and also describes business strategies that are effective in the face of each driving force.",What is Porter's Five-Forces Model of Competition?
-Project Mgmt,10,These types of information help you create a successful business case for implementing a new information system or information technology.,"What is faith, fear, and facts?"
-Project Mgmt,20,This part of a fact-based argument for implementing a new or different information system presents a detailed analysis of all the costs that will be incurred to implement the system as well as a detailed analysis of the revenues or cost savings that are to be forthcoming after the system is implemented.,What is a cost-benefit analysis?
-Project Mgmt,40,This technique helps a company compare the relative value of different solution options on the basis of multiple decision criteria.,What is weighted multicriteria analysis?
-Project Mgmt,100,"Economic value, architectural value, operational value, and regulatory or compliance value.",What are ways that information systems can add value to the organization?
-Innovation,5,These unpleasant side effects are incurred when a customer switches from one brand or model of product to a competitive brand or modle.,What are switching costs?
-Innovation,10,"This ""rule of thumb"" predicted that the number of transistors that could be placed on a silicon chip would double roughly every eighteen months. The ""rule of thumb"" has held true for more than forty years.","What is Moore's Law, stated by Intel co-founder Gordon Moore in a paper in 1965."
-Innovation,20,"New technologies, products, or services that eventually surpass the existing dominant technology or product in a market.",What are disruptive innovations?
-Innovation,40,"The organizational policies of (1) starting early, (2) maintaining credible executive leadership, (3) building a specialized team of experts for this purpose, and (4) edcating the organization, help companies do this.",What is innovate to stay ahead of disruptive technologies?
-Innovation,100,This term describes a cyclic process whereby companies can match emerging technologiew to a need and then rapidly mobilize to grow the company in a direction that takes advantage of the technology and the need to create new markets.,What is the e-business innovation cycle?
-e-Business,5,"This terms is used for the extension of the basic advertising model to the World Wide Web, where consumers receive free content while advertisers pay the distributors for ads on the web site.","What is ""freeconomics""?"
-e-Business,10,"This term describes the concept where a web site offers a basic level of service for free but charges if the user want a higher level of service such as unlimited storage, advertising free interfaces, or more content.","What is ""freemium""?"
-e-Business,20,"This is the marginal cost of the distrubution of e-books to e-readers, for example.",What is zero (0)?
-e-Business,40,This is how Google makes money through its search engine even though they provide the search service to consumers at no cost.,What is advertising? What is adsense?
-e-Business,100,This term applies to the use of any type of information system or information technology to support any and every part of business.,What is e-business?
-Final Jeopardy,0,This is the best jeopardy game available on the web!,What is JS Jeopardy?
+Category	Points	Answer	Question
+System Integration	5	These are the 6 Major services offered by SI team.	What are Custom Development, Data management, Integration services, Dev Ops, QA, Infrastructure Services?
+System Integration	10	This Canadian telecommunications company is the newest client for SI work in Toronto	What is Rogers 
+System Integration	20	This bank is the oldest client for SI work in Toronto with whom we still do business	What is TD Bank 
+System Integration	40	"This ""Creative Project"" that was conceptualized by SI Team almost made it to Production."	What is the FNFG Pig 
+System Integration	100	This is the number of active system integration projects in Toronto.	What is 14
+Experience Technology	5	"""The online experience trifecta"" that must mix to create online experiences are these three groups."	What are experience technologist, experience designer, and visual designer. 
+Experience Technology	10	These are the two main reasons to collaborate with an experience technologist.	What are Feasibility and Inspiration. 
+Experience Technology	20	The time that an experience technologist needs to start engaging on a project.	What is the discovery phase.
+Experience Technology	40	The phases in a project that accessibility compliance should be tested.	What is UX phase, visual design phase, development phase, and QA phase. 
+Experience Technology	100	This frustrating thing happens all the time.	"What is ""talking about front end frameworks too early in the project"""
+E-Commerce	5	These are the 4 major platforms eCommerce team supports.	What is Hybris, ATG, WebSphere Commerce and DemandWare.
+E-Commerce	10	This Grocery Giant is largest client for the eCommerce team in Toronto.	What is Loblaws.
+E-Commerce	20	This retail chain is the largest eCommerce client for Ursa.	What is Future Electronics 
+E-Commerce	40	This is the current list of eCommerce customers for the Toronto eCommerce team.	What are Holt Renfrew, Future Electronics, Loblaws, Rogers, Indigo 
+E-Commerce	100	This is the total eCommerce service renvenue for Ursa	What is 13m? 
+Marketing Technology	5	The % of revenue that digital marketing projects contribute to the overall revenue of Sapient.	What is ?% 
+Marketing Technology	10	These are the marketing projects currently executed from Toronto office.	What are CF, KPMG, Manulife, LCL, FCA?
+Marketing Technology	20	Sapient implemented one of the largest AEM implementation in the world for this professional sercices company.	What is KPMG 
+Marketing Technology	40	CF uses most Sapient's Marketing technologies. What are they?	What are WCMS, Analytics, Personalization, Data Management Platform, Campaign Management 
+Marketing Technology	100	The top two CMS platforms Sapient has a strong presence on.	What are AEM and SiteCore 
+General Technology	5	These are the 5 services lines of Toronto technology practice.	What are Experience Technology, eCommerce and Retail, Marketing Technology, and System Integration and Mobile 
+General Technology	10	The number of technology practitioners in Toronto (at last count).	What is 81
+General Technology	20	This is the technology transformation vision for Publicis.Sapient.	"What is ""We shall be renowned for making transformational impact on our clients through our obsession with engineering, agility and innovation; and will make SapientNitro a preferred destination for enriching careers in technology."""
+General Technology	40	"What does ""CMP"", a quality delivery initiative within Publicis.Sapient, stand for?"	What is the Common Minimum Program.
+General Technology	100	This man created the World Wide Web in 1989.	Who is Tim Berners Lee.
+Final Jeopardy	0	 Coolest, most skilled, and most productive group of people	What is how the Toronto technology team will be known for within Sapient community

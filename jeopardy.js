@@ -89,7 +89,7 @@ function isEndQualifier(field, qualifier) {
 
 /** Converts delimited text (CSV, TSV) to a two dimensional array */
 function convert_csv(csv_text, delimiter, qualifier) {
-  delimiter = delimiter === undefined ? ',' : delimiter;
+  delimiter = delimiter === undefined ? '\t' : delimiter;
   qualifier = qualifier === undefined ? '"' : qualifier;
   csv_text = csv_text.replaceAll("\r\n", "\n").replaceAll("\r", "\n"); // convert all files to Unix-style line endings
   var data = [];
