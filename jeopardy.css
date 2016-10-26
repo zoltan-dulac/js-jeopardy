@@ -63,6 +63,19 @@ table.grid td {
   overflow: hidden;
 }
 
+table.grid td,
+#players .dialog-black {
+  opacity: 0;
+  transition-duration: 1ms;
+  transition-property: opacity;
+  transition-timing-function: linear;
+}
+
+table.grid.show td,
+#players.show .dialog-black {
+	opacity: 1;
+}
+
 /** The player information box (contains both name and score) */
 div.playerinfo {
   padding: 25px 10px 10px 10px;

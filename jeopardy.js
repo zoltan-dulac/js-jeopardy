@@ -163,6 +163,24 @@ function createPlayer(name) {
   };
 }//createPlayer
 
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
 
 /////////////////////////////////////////////////////////////////////////////////////
 //   Main method of the program (called by the HTML page when loading is finished)  
@@ -271,11 +289,57 @@ function loadGame() {
   html += '</table>';
   document.getElementById('finaljeopardydiv').innerHTML = html;
   
-  // finally, close the setup dialog
+  // Close the setup dialog
   tb_remove();
+  
+  // now -- do the animation of the board coming in
+  var cells = shuffle($('table.grid td, #players .dialog-black')),
+  	delay = 100;
+  
+  for (var i=0; i<cells.length; i++) {
+  	var cell = cells[i];
+  	
+  	cell.style.transitionDelay = (delay * i) + 'ms';
+  }
+  
+  $('table.grid, #players').addClass('show');
+  $('#fill-in')[0].play();
+  
+  setEvents();
 }//loadGame function
 
+function setEvents () {
+	$(document).bind('keypress', keyPressEvent);
+}
 
+function keyPressEvent(e) {
+	
+	if (e.target.nodeName === 'INPUT') {
+		return;
+	}
+	
+	e.preventDefault();
+	var player,
+		char = String.fromCharCode(e.which),
+		incorrectChars = 'qwerty',
+		incorrectIndex = incorrectChars.indexOf(char);
+	if (49 <= e.which && e.which <= 54 ) {
+		player = e.which - 49;
+		scoreAnswer(true, player);
+		$('#correct')[0].play();
+	} else if (incorrectIndex > -1){
+		player = incorrectIndex;
+		scoreAnswer(false, player);
+		$('#incorrect')[0].play();
+	} else if (char === '/') {
+		$('#jeopardy-theme')[0].play();
+	} else {
+		$('audio').each(function(i, el) {
+			el.pause();
+			el.currentTime = 0;
+		})
+	}
+}
 /** Refreshes the players boxes on the screen */
 function refreshPlayers() {
   // set the player list in the main window
