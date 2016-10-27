@@ -20,7 +20,7 @@
 
 /* Sets the body background and font */
 body { 
-  background-image: url("wallpaper.jpg");
+  background: black;
   font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
 }
 
@@ -58,10 +58,12 @@ table.grid {
 }
 
 table.grid td {
-	height: 15vh;
 	background-color: #0000b4;
   overflow: hidden;
+  vertical-align: middle;
+  text-align: center;
 }
+
 
 table.grid td,
 #players .dialog-black {
@@ -69,6 +71,7 @@ table.grid td,
   transition-duration: 1ms;
   transition-property: opacity;
   transition-timing-function: linear;
+  height: 20vh;
 }
 
 table.grid.show td,
@@ -99,7 +102,7 @@ div.gridheader {
     text-align: center;
     font-size: 100%;
     font-family: Swiss911BT-ExtraCompressed, Helvetica, Arial, sans-serif;
-    font-size: 4vh;
+    font-size: 5vh;
     text-shadow: 0.5vh 0.5vh 0 black;
     text-transform: uppercase;
 }
@@ -114,6 +117,12 @@ div.griditem {
   font-size: 8vh;
 }
 
+#finaljeopardydiv div.griditem {
+	font-size: 5vh;
+}
+.mainleft, .credits {
+	display: none;
+}
 #questionplayers {
 	position: absolute;
 	width: 100%;
@@ -155,6 +164,14 @@ div.popuptext {
 	border-color: gray;
 	border-collapse: separate;
 	width: 100%;
+	opacity: 0;
+}
+.setupWindow {
+	display: none;
+}
+
+.setupWindow.hasButton {
+	display: block;
 }
 
 .questionPlayerTable td {

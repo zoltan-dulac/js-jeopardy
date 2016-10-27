@@ -333,6 +333,8 @@ function keyPressEvent(e) {
 		$('#incorrect')[0].play();
 	} else if (char === '/') {
 		$('#jeopardy-theme')[0].play();
+	} else if (char === '|') {
+		showQuestion(0, 0);
 	} else {
 		$('audio').each(function(i, el) {
 			el.pause();
@@ -348,8 +350,8 @@ function refreshPlayers() {
     var player = players[i];
     html += '<div class="dialog-black" onclick="editPlayer(' + i + ')">';
     html += '<div class="content-black"><div class="t-black"></div><div class="playerinfo">';
-    html += '<div class="playername">' + player.name + '</div>';
-    html += '<div class="playerscore" id="playerscore' + i + '">' + player.score + '</div>';
+    html += '<span class="playername">' + player.name + ': </span>';
+    html += '<span class="playerscore" id="playerscore' + i + '">' + player.score + '</span>';
     html += '</div></div><div class="b-black"><div></div></div></div>'
   }//for i  
   document.getElementById("players").innerHTML = html;
@@ -476,9 +478,9 @@ function showQuestion(row, col) {
   }//if
   // if this is a final jeopardy question and we still have grid items, ask the user if he's sure
   if (currentquestion.finaljeopardy && !isBoardEmpty()) {
-    if (!confirm("Items still exist on the board.  Are you sure you want to continue to final jeopardy?")) {
+    /* if (!confirm("Items still exist on the board.  Are you sure you want to continue to final jeopardy?")) {
       return;
-    }//if
+    }*///if
   }//if
   // set up the question dialog
   document.getElementById("popuptext").innerHTML = currentquestion.answer;

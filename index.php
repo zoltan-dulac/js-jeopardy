@@ -101,20 +101,22 @@
 <p class="setupWindow">Welcome to JS Jeopardy!  This is a free, online game for teachers within the classroom (K-12, College), presenters in any setting, or individuals wanting a fun "flash card system" to review concepts.  The program allows custom questions and answers that you specify (it doesn't come preloaded).  Games are not saved on the server, but are temporary within your browser window, so be sure to save your question files separately.</p>
   
 <p class="setupWindow">Begin by entering delimited text data into the following text box.  Enter your answers and questions on the lines following the header line, in the format specified.  <i>These lines can be created most easily in a spreadsheet program like Microsoft Excel (then exported to CSV) or in a text editor and then pasted here.</i>  If you'd like to see an example, <a href="index.html#"  style="color:#FFFFCC" onclick="setupExampleData()">click here to populate the box with example data</a>.</p>
-<p class="setupWindow" align="center"><textarea id="setupdata" rows="10" cols="90">Category,Points,Answer,Question
+<p class="setupWindow" align="center"><textarea id="setupdata" rows="10" cols="90"><?php
+	include "data.csv";
+?>
 </textarea></p>
 <p class="setupWindow">Next, select the number of players in this game.  Once the game is started, you can add or remove players, change player names, or adjust player scores by clicking a player box on the game board.<p>
 <p class="setupWindow" align="center">Number of Players:
   <select id="setupnumplayers">
       <option>1</option>
       <option>2</option>
-      <option selected>3</option>
-      <option>4</option>
+      <option>3</option>
+      <option selected>4</option>
       <option>5</option>
     </select>
 </p>
 <p class="setupWindow">Read below for more detailed instructions on playing and administering the game setup. Enjoy the game!</p>
-<p class="setupWindow" align="center"><input type="button" value="Play Jeopardy!" onclick="loadGame()"></p>
+<p class="setupWindow hasButton" align="center"><input style="margin-top: 40px" type="image" src="jeopardy-5309b90c30961.png" value="Play Jeopardy!" onclick="loadGame()"></p>
 <div class="setupWindow">&nbsp;</div>
 <div class="setupWindow">&nbsp;</div>
 <h3 class="setupWindow">Instructions and Notes:</h3>

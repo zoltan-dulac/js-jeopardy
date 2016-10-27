@@ -2,17 +2,6 @@
   -- Even more rounded corners with CSS: Base stylesheet --
 */
 
-.dialog-blue {
- position:relative;
- margin:0px auto;
- min-width:8em;
- max-width:760px; /* based on image dimensions - not quite consistent with drip styles yet */
- color:#fff;
- z-index:1;
- margin-left:12px; /* default, width of left corner */
- margin-bottom:0.5em; /* spacing under dialog */
- height: 100%;
-}
 
 .dialog-blue .content-blue,
 .dialog-blue .t-blue,
@@ -38,6 +27,7 @@
  height:100%;
  _height:1600px; /* arbitrary long height, IE 6 */
  background-position:top left;
+ display: none;
 }
 
 .dialog-blue .b-blue {

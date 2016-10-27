@@ -1,27 +1,22 @@
 Category	Points	Answer	Question
-System Integration	5	These are the 6 Major services offered by SI team.	What are Custom Development, Data management, Integration services, Dev Ops, QA, Infrastructure Services?
-System Integration	10	This Canadian telecommunications company is the newest client for SI work in Toronto	What is Rogers 
-System Integration	20	This bank is the oldest client for SI work in Toronto with whom we still do business	What is TD Bank 
-System Integration	40	"This ""Creative Project"" that was conceptualized by SI Team almost made it to Production."	What is the FNFG Pig 
-System Integration	100	This is the number of active system integration projects in Toronto.	What is 14
+Mobile	5	This holiday promotion has more awards than developers.	What is SpeakEmoji?
+Mobile	10	Dead or alive, you won't want to do much walking when visiting this city, our Mobile HQ. 	What is Atlanta?
+Mobile	20	I'm lovin' it.	What is being the digital adoption partner for McDonald's US?
+Mobile	40	These little devices can connect the physical and digital worlds through an app.	What are beacons?
 Experience Technology	5	"""The online experience trifecta"" that must mix to create online experiences are these three groups."	What are experience technologist, experience designer, and visual designer. 
 Experience Technology	10	These are the two main reasons to collaborate with an experience technologist.	What are Feasibility and Inspiration. 
-Experience Technology	20	The time that an experience technologist needs to start engaging on a project.	What is the discovery phase.
+Experience Technology	20	The phase of a project that an experience technologist needs to start engaging.	What is the discovery phase.
 Experience Technology	40	The phases in a project that accessibility compliance should be tested.	What is UX phase, visual design phase, development phase, and QA phase. 
-Experience Technology	100	This frustrating thing happens all the time.	"What is ""talking about front end frameworks too early in the project"""
 E-Commerce	5	These are the 4 major platforms eCommerce team supports.	What is Hybris, ATG, WebSphere Commerce and DemandWare.
 E-Commerce	10	This Grocery Giant is largest client for the eCommerce team in Toronto.	What is Loblaws.
-E-Commerce	20	This retail chain is the largest eCommerce client for Ursa.	What is Future Electronics 
-E-Commerce	40	This is the current list of eCommerce customers for the Toronto eCommerce team.	What are Holt Renfrew, Future Electronics, Loblaws, Rogers, Indigo 
-E-Commerce	100	This is the total eCommerce service renvenue for Ursa	What is 13m? 
-Marketing Technology	5	The % of revenue that digital marketing projects contribute to the overall revenue of Sapient.	What is ?% 
-Marketing Technology	10	These are the marketing projects currently executed from Toronto office.	What are CF, KPMG, Manulife, LCL, FCA?
-Marketing Technology	20	Sapient implemented one of the largest AEM implementation in the world for this professional sercices company.	What is KPMG 
-Marketing Technology	40	CF uses most Sapient's Marketing technologies. What are they?	What are WCMS, Analytics, Personalization, Data Management Platform, Campaign Management 
-Marketing Technology	100	The top two CMS platforms Sapient has a strong presence on.	What are AEM and SiteCore 
-General Technology	5	These are the 5 services lines of Toronto technology practice.	What are Experience Technology, eCommerce and Retail, Marketing Technology, and System Integration and Mobile 
-General Technology	10	The number of technology practitioners in Toronto (at last count).	What is 81
-General Technology	20	This is the technology transformation vision for Publicis.Sapient.	"What is ""We shall be renowned for making transformational impact on our clients through our obsession with engineering, agility and innovation; and will make SapientNitro a preferred destination for enriching careers in technology."""
+E-Commerce	20	This is the newest eCommerce client for Ursa.	What is Future Electronics 
+E-Commerce	40	Holt Renfrew, Future Electronics, Loblaws, Rogers, Indigo	What is the current list of eCommerce customers for the Toronto eCommerce team.	
+Marketing Technology	5	The top two CMS platforms Sapient has a strong presence on.	What are AEM and SiteCore 
+Marketing Technology	10	Cadillac Fairview, KPMG, Manulife, LCL, FCA	What are the marketing projects currently executed from Toronto office.	
+Marketing Technology	20	Sapient did one of the largest AEM implementation in the world for this professional services company.	What is KPMG 
+Marketing Technology	40	WCMS, Analytics, Personalization, Data Management Platform, Campaign Management	What are the Sapient Marketing technologies that Cadillac Fairview uses?
+General Technology	5	These are the 5 service lines of Toronto technology practice.	What are Experience Technology, eCommerce and Retail, Marketing Technology, and System Integration and Mobile 
+General Technology	10	81	The number of technology practitioners in Toronto (at last count).
+General Technology	20	"""We shall be renowned for making transformational impact on our clients through our obsession with engineering, agility and innovation; and will make SapientNitro a preferred destination for enriching careers in technology."""	The technology transformation vision for Publicis.Sapient.
 General Technology	40	"What does ""CMP"", a quality delivery initiative within Publicis.Sapient, stand for?"	What is the Common Minimum Program.
-General Technology	100	This man created the World Wide Web in 1989.	Who is Tim Berners Lee.
-Final Jeopardy	0	 Coolest, most skilled, and most productive group of people	What is how the Toronto technology team will be known for within Sapient community
+Final Jeopardy	0	 The coolest, most skilled, and most productive group of people	What is the Toronto technology team.
