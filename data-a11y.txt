@@ -1,0 +1,66 @@
+Category	Points	Answer	Question
+Design	5	Information must not be communicated by this technique alone.	What are colours?
+Design	5	This type of image should have a blank alt attribute.	What is a decorative image?
+Design	10	A visual indicator for interactive elements when they are active.	What are focus states?
+Design	10	The most accessible way to align text for people who read left to right.	What is left-justified?
+Design	10	Rather than px's this sizing unit can be used to enable more responsive designs and adjustable font sizes.	What are rems?
+Design	20	The word used to describe a large variation in colour	What is contrast?
+Design	20	The minimum contrast requirement for form field outlines.	What is 3:1?
+Design	20	"While this is an AAA accessibility requirement, what is the minimum touch area or target size for an element."	What is 44 by 44 px?
+Design	40	Animations longer than 5 seconds that Autoplay must include this element.	What is a pause button?
+Development	5	The attribute every image on the web must have in order to be considered accessible	What is an alt attribute?
+Development	5	This interactive element performs a scripted action on the page or submits a form.	What is a button?
+Development	5	"When activated, this interactive element takes the user to a new destination."	What is a link?
+Development	5	This type of HTML element clearly describes the meaning of its content.	What are semantic elements?
+Development	10	"This attribute specifies extra, non-essential information about an element and should usually be avoided."	What is a title attribute?
+Development	10	This can be used to help a screen reader recognize that a different pronunciation is required to read some text.	What is a lang attribute?
+Development	20	This kind of tool analyses source code to flag accessibility issues.	What is an accessibility linting tool?
+Development	20	The maximum text zoom level that content needs to remain legible and there is no loss of functionality.	What is 200%
+Development	20	Inputs must have these programmatically associated with them.	What are labels?
+Development	20	This aria attribute replaces the visible label for an element.	What is an aria-label?
+Development	20	"This commonly mis-used semantic element should only be used for independent, self-contained content that is possible to distribute."	What is the article tag?
+Development	20	This can be used to find HTML syntax errors and ensure your code is meeting WCAG requirement 4.1.1 parsing.	What is an HTML validator?
+Development	40	Never use ARIA when semantic HTML can accomplish the same thing.	What is the first rule of ARIA?
+Final Jeopardy	0	The contrast ratio for normal size text to satisfy success criterion 1.4.6 Contrast (Enhanced) - Level AAA	What is 7:1?
+Final Jeopardy	0	On this year the American Disabilities Act in the US finally guaranteed equal rights for people with disabilities.	What is 1990?
+Final Jeopardy	0	This Canadian federal legislation aims to realize a barrier-free Canada by 2040.	What is the Accessible Canada Act?
+Fundamentals	5	"Jaws, NVDA and VoiceOver are examples of what kind of assistive technology"	What is a screen reader?
+Fundamentals	5	The word that the 4 principles of accessibility spell.	What is POUR?
+Fundamentals	5	This is the current accessibility standard and target level that our organization is working towards.	What is WCAG 2.1 AA?
+Fundamentals	10	"A visual disorder that, while not robbing people of sight, affects 1 in 200 women and 1 in 12 men."	What is colour blindness?
+Fundamentals	10	The number of people in the world with a permanent disability.	What is 1 billion?
+Fundamentals	10	This is the first rule of aria and should always be suggested before starting to add accessibility to a project.	What is do not use aria?
+Fundamentals	20	The meaning of this acronym: WCAG	What are the Web Content Accessibility Guidelines?
+Fundamentals	20	"To enable accessible development, these are required to be delivered with designs and user stories to the engineering team."	What are accessibility requirements/annotations?
+Fundamentals	20	"This law in Ontario aims to identify, remove, and prevent barriers for people with disabilities."	"What is the Accessibility for Ontarians with Disabilities Act, or AODA?"
+Fundamentals	40	This act is used in the lawsuits to sue American companies of inaccessible websites	What is the ADA/Americans with Disabilities Act?
+Fundamentals	40	The month and year of when the next minor version of WCAG (currently in draft mode) is planned for publication.	What is December 2022?
+Fundamentals	40	This automated software solution falsely claims to detect and fix web accessibility issues.	What is an accessibility overlay?
+Fundamentals	40	This type of hardware device enables people who are deaf-blind to access the web.	What is a refreshable Braille display?
+Fundamentals	40	Input assistive technologies such as eye-tracking devices and single switch devices mimic the functionality of this input device.	What is a keyboard?
+User Experience	5	A lot of users who cannot use a mouse usually this common device to navigate a webpage.	What is a keyboard?
+User Experience	5	This landmark should contain the main content of the page.	What is the main landmark?
+User Experience	5	The interactive element that allows users to bypass blocks of content.	What is a skip link?
+User Experience	5	These are used to introduce sections on a page.	What are headings?
+User Experience	10	This HTML element is used to label grouped elements in a form.	What is a fieldset legend?
+User Experience	10	These keyboard buttons are used to navigate the tabs of a tab widget.	What are arrow keys?
+User Experience	10	"This can be used to wrap related form elements, like radio buttons or checkboxes, when they share a common label."	What is a fieldset?
+User Experience	20	The appropriate control to use when there is a list of 2 or more options and the user may select any number of options.	What are checkboxes?
+User Experience	20	These communicate the status of interface elements to the user.	What are states?
+User Experience	20	"""Click here,"" ""View more,"" and ""See more"" are all examples of this kind of language."	What is non-inclusive language?
+User Experience	20	These elements that describe the purpose of form elements must be consistently visible.	What are labels?
+User Experience	20	All pages should include this text in the <head> so that they can be easily identified via their tabs within the browser.	What is a title?
+User Experience	20	This can be used to make announcments specifically to assitive technoliges like a screen reader.	What is aria-live?
+User Experience	40	These roles define and categorize the purpose of content on a page.	What are landmarks?
+User Experience	40	"This landmark is used to identify common information at the bottom of each page within a website, typically called the ""footer""."	What is the contentInfo landmark?
+Video	5	The words that appear below a video that help deaf users understand the dialog of a video.	What are captions?
+Video	10	A form of narration used to provide information about key visual elements in a video.	What are audio descriptions?
+Video	10	The maximum number of times accessible content can flash in 1 second.	What is three?
+Video	10	"This can be triggered by high speed flashing within a video, the colour red is particularly dangerous."	What is a seizure?
+Video	20	Videos require these three features to be considered level AAA compliant.	"What are captions, audio descriptions and transcripts?"
+Video	20	The kind of captions that are always visible when a video is playing.	What are open captions?
+Video	40	This type of video usually doesn't require an audio description.	What is a talking-head video?
+Video	40	This is a requirement for level AAA compliance to make videos accessible to those who suffer from deafness/hard of hearing	What is sign language/ASL?
+Video	40	These are the only WCAG exception for the AODA.	What are live captions or audio descriptions? 
+			
+			

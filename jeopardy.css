@@ -121,7 +121,6 @@ div.griditem {
 	font-size: 5vh;
 }
 .mainleft, .credits {
-	display: none;
 }
 #questionplayers {
 	position: absolute;

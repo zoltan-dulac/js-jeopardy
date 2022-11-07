@@ -1,0 +1,22 @@
+Category	Points	Answer	Question
+Accessibility	5	The attribute must every image on the web have in order to be considered accessible	What is an alt attribute?
+Accessibility	10	"Jaws, NVDA and VoiceOver are examples of what kind of assistive technology"	What is a screen reader?
+Accessibility	20	A lot of users who cannot use a mouse usually this common device to navigate a webpage.	What is a keyboard?
+Accessibility	40	"A visual disorder that, while not robbing people of sight, affects 1 in 200 women and 1 in 12 men.What is colourblindness?"	What are beacons?
+Web History	5	"The now defunct company gave us JavaScript, Cookies and the blink tag?"	What is Netscape?
+Web History	10	This British technologist invented the web in 1989.	Who is Tim Berners-Lee?
+Web History	20	The file sharing company pioneer was named after the nickname of its sleepy founder	What is Napster?
+Web History	40	"The well dressed technologist who was the inspiration for ""The Architect"" in The Matrix film franchise."	Who is Vinton Cerf?
+Video Games	5	"Named after a phrase used in the Japanese game Go, this U.S. company is credited for popularizing video games at home and in arcades."	What is Atari?
+Video Games	10	This is considered a lie in Portal	What is The Cake?
+Video Games	20	This Japanese Video Game company was originally formed in the 19th century.	What is Nintendo?
+Video Games	40	This video game character was named after the landlord of the company that created him.	Who is Mario?
+Creative Technology	5	The top two CMS platforms Sapient has a strong presence on.	What are AEM and SiteCore 
+Creative Technology	10	"Cadillac Fairview, KPMG, Manulife, LCL, FCA"	What are the marketing projects currently executed from Toronto office.
+Creative Technology	20	Sapient did one of the largest AEM implementation in the world for this professional services company.	What is KPMG 
+Creative Technology	40	"WCMS, Analytics, Personalization, Data Management Platform, Campaign Management"	What are the Sapient Marketing technologies that Cadillac Fairview uses?
+General Technology	5	These are the 5 service lines of Toronto technology practice.	"What are Experience Technology, eCommerce and Retail, Marketing Technology, and System Integration and Mobile "
+General Technology	10	81	The number of technology practitioners in Toronto (at last count).
+General Technology	20	"""We shall be renowned for making transformational impact on our clients through our obsession with engineering, agility and innovation; and will make SapientNitro a preferred destination for enriching careers in technology."""	The technology transformation vision for Publicis.Sapient.
+General Technology	40	"What does ""CMP"", a quality delivery initiative within Publicis.Sapient, stand for?"	What is the Common Minimum Program.
+Final Jeopardy	0	" The coolest, most skilled, and most productive group of people"	What is the Toronto technology team.

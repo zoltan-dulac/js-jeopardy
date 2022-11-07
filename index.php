@@ -101,8 +101,10 @@
 <p class="setupWindow">Welcome to JS Jeopardy!  This is a free, online game for teachers within the classroom (K-12, College), presenters in any setting, or individuals wanting a fun "flash card system" to review concepts.  The program allows custom questions and answers that you specify (it doesn't come preloaded).  Games are not saved on the server, but are temporary within your browser window, so be sure to save your question files separately.</p>
   
 <p class="setupWindow">Begin by entering delimited text data into the following text box.  Enter your answers and questions on the lines following the header line, in the format specified.  <i>These lines can be created most easily in a spreadsheet program like Microsoft Excel (then exported to CSV) or in a text editor and then pasted here.</i>  If you'd like to see an example, <a href="index.html#"  style="color:#FFFFCC" onclick="setupExampleData()">click here to populate the box with example data</a>.</p>
-<p class="setupWindow" align="center"><textarea id="setupdata" rows="10" cols="90"><?php
-	include "data.csv";
+<p class="setupWindow" align="center"><textarea id="setupdata" rows="10" cols="90">
+  
+<?php
+  echo shell_exec('/Users/zolhawry/git/js-jeopardy/getData.sh');
 ?>
 </textarea></p>
 <p class="setupWindow">Next, select the number of players in this game.  Once the game is started, you can add or remove players, change player names, or adjust player scores by clicking a player box on the game board.<p>

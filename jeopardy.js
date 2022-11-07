@@ -23,7 +23,7 @@
  *  
  *  Installation:
  *    1. Unzip the distribution to a directory on your computer.
- *    2. Populate the data.csv file with categories, questions, and answers.
+ *    2. Populate the data.txt file with categories, questions, and answers.
  *       The first row is always ignored (it's a header).  Any questions in
  *       the special category "Final Jeopardy" are shown on the side of the
  *       screen.
@@ -135,6 +135,7 @@ function convert_csv(csv_text, delimiter, qualifier) {
     }//for
     data[data.length] = record;
   }//for
+
   return data;
 }//convert_csv
 
@@ -573,7 +574,7 @@ function setupExampleData() {
   if (confirm("You are about to replace the game with example data.  This cannot be undone.  Continue?")) {
     $.ajax({
       type: "GET",
-      url: "data.csv",
+      url: "data.txt",
       dataType: "text",
       error: function (xhr, desc, exceptionobj) {
         alert('An error occurred while reading the example game data: ' + xhr.responseText);
